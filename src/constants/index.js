@@ -1,3 +1,4 @@
+import { t } from "maath/dist/misc-7d870b3c.esm";
 import {
     mobile,
     backend,
@@ -61,10 +62,6 @@ import {
   
   const technologies = [
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -73,8 +70,16 @@ import {
       icon: tailwind,
     },
     {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     }
   ];
   
